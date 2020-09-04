@@ -1,0 +1,637 @@
+.container {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	background: linear-gradient(black, #3C5A14);
+}
+
+.h1profil {
+	margin-top: 20px;
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-size: 18pt;
+	color: #fdfdfd;
+}
+
+.profil-icon-skill {
+	width: 55%;
+	
+}
+
+.profil-icon-death {
+	width: 55%;
+
+}
+
+.profil-icon-ratio {
+	width: 55%;
+
+}
+
+.profil-icon-win {
+	width: 55%;
+}
+
+
+.stats_row {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	//margin-bottom: 10%;
+	//padding-bottom: 1%;
+	//padding-top: 1%;
+	margin-left: 10%
+}
+
+.stat {
+
+	font-family: sans-serif;
+	//display : inline-flexbox;
+
+
+}
+
+.select {
+	color: white;
+}
+
+.img-avatar {
+	height: 120px;
+	width: 120px;
+	margin: -60px auto 0 auto;
+}
+
+.container-profil {
+	max-width: 1250px;
+	margin: -130px auto 30px;
+	padding: 0 !important;
+	width: 90%;
+	//background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.10);
+}
+
+.header-profil {
+	background-image: url(/img/warzone-ghost-green.fc06d7ea.jpg);
+	background-repeat: no-repeat;
+	background-position: inherit;
+	background-size: cover;
+	background-color: white;
+	height: 400px;
+	width: 100%;
+	margin-top: 11%;
+}
+
+header i {
+	position: relative;
+	cursor: pointer;
+	right: -96%;
+	top: 25px;
+	font-size: 18px !important;
+	color: white;
+}
+
+@media (max-width:800px) {
+	header {
+		height: 150px;
+	}
+
+	header i {
+		right: -90%;
+	}
+}
+
+main {
+	padding: 20px 20px 0px 20px;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.photo {
+	width: 200px;
+	height: 200px;
+	margin-top: -120px;
+	border-radius: 100px;
+	border: 4px solid rgb(0, 0, 0);
+	filter: sepia(1);
+}
+
+.active {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	position: absolute;
+	right: calc(50% - 70px);
+	top: 75px;
+	background-color: #d2f50b;
+	border: 3px solid #fff;
+}
+
+@media (max-width:990px) {
+	.active {
+		right: calc(50% - 60px);
+		top: 50px;
+	}
+}
+.mon-quartier-general {
+	padding-bottom: 5%;
+}
+.name {
+	margin-top: 20px;
+	font-family: "Open Sans";
+	font-weight: 600;
+	font-size: 18pt;
+	color: rgb(253, 253, 253);
+}
+
+.info {
+	margin-top: 8px;
+	margin-bottom: 5px;
+	font-family: sans-serif;
+	font-size: 3vh;
+	color: rgb(248, 247, 247);
+}
+
+
+
+.number-stat {
+	
+	margin-right: 46%;
+	margin-top: 5%;
+	font-size: 7vh;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: rgb(210, 245, 11);
+	position: relative;
+
+}
+
+.number-stat:hover {
+	-webkit-transform: scale(1.5);
+}
+
+.desc-stat {
+	margin-right: 3%;
+	font-size: 3vh;
+	color: white;
+}
+
+.desc {
+	text-align: center;
+	margin-top: 25px;
+	margin: 25px 40px;
+	color: white;
+	font-size: 3vh;
+	
+	padding-bottom: 25px;
+	border-bottom: 1px solid rgb(210, 245, 11);
+}
+
+.social {
+	margin: 5px 0 12px 0;
+	text-align: center;
+	display: inline-block;
+	font-size: 20pt;
+}
+
+.social i {
+	cursor: pointer;
+	margin: 0 15px;
+}
+
+.social i:nth-child(1) {
+	color: #4267b2;
+}
+
+.social i:nth-child(2) {
+	color: #1da1f2;
+}
+
+.social i:nth-child(3) {
+	color: #bd081c;
+}
+
+.social i:nth-child(4) {
+	color: #36465d;
+}
+
+.right {
+	padding: 0 25px 0 25px !important;
+}
+
+.nav {
+	display: inline-flex;
+}
+
+.nav li {
+	margin: 40px 30px 0 10px;
+	cursor: pointer;
+	font-size: 13pt;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: #888;
+}
+
+.nav li:hover,
+.nav li:nth-child(1) {
+	color: #999;
+	border-bottom: 2px solid rgb(210, 245, 11);
+	font-size: 200%;
+}
+
+.follow {
+	position: absolute;
+	right: 8%;
+	top: 35px;
+	font-size: 11pt;
+	background-color: #42b1fa;
+	color: #fff;
+	padding: 8px 15px;
+	cursor: pointer;
+	transition: all .4s;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+.follow:hover {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+//start css card stats
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.card-card-stats {
+	width: 650px;
+	height: 300px;
+	margin: auto;
+	position: relative;
+	background: linear-gradient(45deg, rgb(30, 48, 27) 0%, rgb(26, 63, 21) 100%);
+}
+
+.img-card-stats {
+	background-image: url('../assets/images/cod-jaquette.jpg');
+	width: 224px;
+	height: 300px;
+	background-size: cover;
+}
+
+.header-card-stats {
+	width: 450px;
+	height: 90px;
+	margin-top: 10px;
+	position: relative;
+	bottom: 300px;
+	left: 200px;
+}
+
+.profile-card-stats {
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	top: 1%;
+	left: 50%;
+}
+
+.profile h2 {
+	font-size: 28px;
+	font-weight: 700;
+	text-align: left;
+	font-variant: small-caps;
+	margin: 5px 0px 3px 96px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.profile p {
+	font-size: 12px;
+	font-weight: lighter;
+	text-align: left;
+	margin: 1px 0px 0px 96px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.monQG {
+	font-family: Earth Orbiter;
+	font-weight: bolder;
+	left: 0%;
+	font-size: 300%;
+	color: rgb(210, 245, 11);
+}
+
+/* .profile-pic {
+	background-image: url('https://zupimages.net/up/20/33/3q3h.png');
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	position: absolute;
+	left: 35%;
+	top: 5px;
+	z-index: 1;
+	border: 3px solid white;
+	border-radius: 80px;
+} */
+
+/* .logo-card-stats {
+	width: 105px;
+	height: 60px;
+	background-image: url('https://2.bp.blogspot.com/-CfcNNFkQgKg/VVA2-IZrYMI/AAAAAAAACW4/2UKFilGssf0/s1600/Marvel-comics-logo-vector.png');
+	background-size: cover;
+	position: absolute;
+	top: -10px;
+	left: 80%;
+}
+ */
+/*** END OF HEADER***/
+
+
+.footer-card-stats {
+	position: relative;
+	margin-top: 10%;
+	width: 450px;
+	bottom: 320px;
+	left: 209px;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*** STATISTICS BAR NUMBER 1 ***/
+
+.stat-bar1 h3 {
+	position: absolute;
+	bottom: 2px;
+	left: 7px;
+	margin: 0px;
+	font-size: 14px;
+	color: rgb(2, 2, 2);
+}
+
+.stat-bar1 p {
+	position: absolute;
+	bottom: 2px;
+	left: 271px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+	animation: fadeIn 2s;
+}
+
+.stat-bar1 {
+	width: 303.75px;
+	height: 20px;
+	background: linear-gradient(0.25turn, #468d05, #abdb86, #070707);
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	animation: moveIn 2s;
+}
+
+/*** STATISTICS BAR NUMBER 2 ***/
+
+.stat-bar2 h3 {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	margin: 0px;
+	font-size: 14px;
+	color: black;
+}
+
+.stat-bar2 p {
+	position: absolute;
+	bottom: 2px;
+	left: 322px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+	animation: fadeIn 2s;
+}
+
+.stat-bar2 {
+	width: 356px;
+	height: 20px;
+	background: linear-gradient(0.25turn, #468d05, #abdb86, #070707);
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	animation: moveIn 2s;
+}
+
+/*** STATISTICS BAR NUMBER 3 ***/
+
+.stat-bar3 h3 {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	margin: 0px;
+	font-size: 14px;
+	color: black;
+}
+
+.stat-bar3 p {
+	position: absolute;
+	bottom: 2px;
+	left: 365px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+	animation: fadeIn 2s;
+}
+
+.stat-bar3 {
+	width: 405px;
+	height: 20px;
+	background: linear-gradient(0.25turn, #468d05, #abdb86, #070707);
+	position: absolute;
+	top: 90px;
+	left: 20px;
+	animation: moveIn 2s;
+}
+
+/*** STATISTICS BAR NUMBER 4 ***/
+
+.stat-bar4 h3 {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	margin: 0px;
+	font-size: 14px;
+	color: black;
+}
+
+.stat-bar4 p {
+	position: absolute;
+	bottom: 2px;
+	left: 290px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+	animation: fadeIn 2s;
+}
+
+.stat-bar4 {
+	width: 324px;
+	height: 20px;
+	background: linear-gradient(0.25turn, #468d05, #abdb86, #070707);
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	animation: moveIn 2s;
+}
+
+/*** STATISTICS BAR NUMBER 5 ***/
+
+.stat-bar5 h3 {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	margin: 0px;
+	font-size: 14px;
+	color: black;
+}
+
+.stat-bar5 p {
+	position: absolute;
+	bottom: 2px;
+	left: 250px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+	animation: fadeIn 2s;
+}
+
+.stat-bar5 {
+	width: 283.5px;
+	height: 20px;
+	background: linear-gradient(0.25turn, #468d05, #abdb86, #070707);
+	position: absolute;
+	top: 150px;
+	left: 20px;
+	animation: moveIn 2s;
+}
+
+/*** STATISTICS BAR NUMBER 6 ***/
+
+.stat-bar6 h3 {
+	position: absolute;
+	bottom: 2px;
+	left: 5px;
+	margin: 0px;
+	font-size: 14px;
+	
+	color: black;
+}
+
+.stat-bar6 p {
+	position: absolute;
+	bottom: 2px;
+	left: 355px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+	animation: fadeIn 2s;
+}
+
+.stat-bar6 {
+	width: 388.8px;
+	height: 20px;
+	background: linear-gradient(0.25turn, #468d05, #abdb86, #070707);
+	position: absolute;
+	top: 180px;
+	left: 20px;
+	animation: moveIn 2s;
+}
+.countdown{
+  display: block;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+.h2-count-prochain-tournoi{
+	text-align: center;
+	color: white;
+	font-size: xx-large;
+	font-family: sans-serif;
+	
+}
+
+.site-nav-prop-tournois{
+	margin-left: 19%;
+}
+
+.link-prochain-tournois{
+	margin: auto;
+	margin-left: 32%;
+}
+
+.img-inscription-post-countdown{
+	display: block;
+	margin: auto;
+	margin-bottom: 2%;
+  }
+
+@keyframes moveIn {
+	0% {
+		width: 0px;
+	}
+
+	100% {
+		width: 332.5;
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	99% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+// end css card stats
+
+@media (max-width:990px) {
+	.nav {
+		display: none;
+	}
+
+	.follow {
+		width: 50%;
+		margin-left: 25%;
+		display: block;
+		position: unset;
+		text-align: center;
+	}
+}
+
+.gallery {
+	margin-top: 35px;
+}
+
+.gallery div {
+	margin-bottom: 30px;
+}
+
+.gallery img {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.10);
+	width: auto;
+	height: auto;
+	cursor: pointer;
+	max-width: 100%;
+}
