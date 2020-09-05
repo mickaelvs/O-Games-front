@@ -52,34 +52,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-body {
-  background-color: #0c0322;
-}
-
-.page-streaming {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.ogame-comming-soon {
-  width: 52%;
-  border: solid 1px white;
-  margin-left: 21%;
-}
-
-#streaming-one{
-  margin: auto;
-  margin-left: 25%;
-}
-
-#streaming-two {
-  margin-left: 25%;
-}
-
-#streaming-three {
-  margin-left: 25%;
-  margin-bottom: 10%;
-}
+<style>
 </style>

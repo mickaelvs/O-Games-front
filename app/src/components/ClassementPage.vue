@@ -115,6 +115,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/classementpage.scss";
+<style>
 </style>

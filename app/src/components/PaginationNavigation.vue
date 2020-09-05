@@ -35,20 +35,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-/* COMPONENT PaginationNavigation */
-
-.pagination {
-  display: flex;
-  justify-content: space-between;
-
-  /**
-   * Force flex child element to align right
-   *
-   * @link https://stackoverflow.com/questions/35269947/css-align-one-item-right-with-flexbox
-   */
-  &__next {
-    margin-left: auto;
-  }
-}
+<style>
 </style>

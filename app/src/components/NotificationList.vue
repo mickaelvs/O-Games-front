@@ -26,8 +26,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.notification-list {
-  margin-top: 6rem;
-}
+<style>
 </style>

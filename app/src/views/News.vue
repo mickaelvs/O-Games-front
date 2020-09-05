@@ -20,8 +20,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/footer.scss";
-@import "../scss/newspage.scss"
-
+<style>
 </style>

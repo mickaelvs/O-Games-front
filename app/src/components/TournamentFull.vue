@@ -131,24 +131,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-ul {
-  list-style-type: disc;
-  padding-left: 1.2rem;
-  padding-bottom: 1rem;
-}
-
-.preparation {
-  p {
-    margin-bottom: 1rem;
-  }
-}
-
-.media-image {
-  background: {
-    size: cover;
-  }
-  height: 50vh;
-  width: 100%;
-}
+<style>
 </style>

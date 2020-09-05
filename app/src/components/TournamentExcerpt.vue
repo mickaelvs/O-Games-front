@@ -101,37 +101,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-//@import "../scss/colors.scss", "../scss/variables.scss";
-
-/* COMPOSANT TournamentExcerpt */
-.article {
-  text-align: left;
-  margin-bottom: 2rem;
-  text-align: left;
-  margin-bottom: 2rem;
-  background-color: #f0f4ee;
-  padding-bottom: 2rem;
-  //border-radius: 1rem;
-  border: solid 1px white;
-  box-shadow: 0px 5px 5px rgba(128, 228, 128, 0.842);
-  
-
-  .text-content {
-    padding: 0 30px;
-    text-decoration: none;
-  }
-
-  .media-image {
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
-    display: block;
-    margin: auto;
-    border-radius: 1rem;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-}
+<style>
 </style>

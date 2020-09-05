@@ -186,42 +186,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/colors.scss", "../scss/variables.scss";
-
-/* COMPOSANT FilterList */
-.article{
-  margin-bottom: 5%;
-}
-.filter-list {
-  margin: 1rem 0;
-
-  &__title {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    width: 100%;
-  }
-
-  &__content {
-    align-items: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-
-    .filter {
-      display: flex;
-      flex-direction: column;
-      padding: 0 0.5rem;
-      width: 50%;
-
-      .filter__label,
-      .filter__control {
-        width: 100%;
-      }
-
-      .filter__label {
-        margin-bottom: 0.5rem;
-      }
-    }
-  }
-}
+<style>
 </style>

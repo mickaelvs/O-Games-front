@@ -113,9 +113,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/font.scss";
-@import "../scss/mainlayout.scss";
-
-//Caroussel
+<style>
 </style>

@@ -19,14 +19,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-
-.container {
-    width: 100%;
-    margin: auto;
-    margin-top: 3%;
-    position: absolute;
-    background: linear-gradient( black, #3C5A14);
-  }
-
+<style>
 </style>

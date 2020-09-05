@@ -91,6 +91,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/header.scss";
+<style>
 </style>

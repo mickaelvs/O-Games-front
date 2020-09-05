@@ -323,9 +323,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/userprofile.scss";
-//@import "../scss/donuts.scss";
-@import "../scss/font.scss";
-//@import "../scss/mainlayout.scss";
+<style>
 </style>

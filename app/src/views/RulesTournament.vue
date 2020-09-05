@@ -172,12 +172,5 @@ mounted() {
    
 };
 </script>
-<style lang="scss">
-@import "../scss/tournamentfull.scss";
-
-.container {
-  margin-top: 3%;
-}
-
-
+<style>
 </style>

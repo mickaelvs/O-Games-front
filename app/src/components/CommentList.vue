@@ -170,34 +170,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/colors.scss";
-@import "../scss/forms.scss";
-@import "../scss/variables.scss";
-
-/* COMPOSANT CommentList */
-
-.comment {
-  background-color: $primaryBackgroundColor;
-  padding: 1rem;
-  border-radius: $cardBorderRadius;
-  margin-bottom: 0.5rem;
-
-  .author {
-    font-family: sans-serif, Arial;
-    margin-bottom: 1rem;
-  }
-}
-
-/* COMPOSANT CommentForm */
-
-.comment-form {
-  margin-top: 1rem;
-}
-
-.loader {
-  height: auto;
-  margin: 0 auto;
-  width: 10vw;
-}
+<style>
 </style>

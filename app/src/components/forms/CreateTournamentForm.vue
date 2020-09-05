@@ -461,11 +461,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../../scss/createTournement.scss";
-
-.detail-list {
-  display: flex;
-  flex-wrap: wrap;
-}
+<style>
 </style>

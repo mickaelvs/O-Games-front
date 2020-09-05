@@ -26,6 +26,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/footer.scss";
+<style>
 </style>

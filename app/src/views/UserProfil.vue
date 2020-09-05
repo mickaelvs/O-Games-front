@@ -25,11 +25,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-@import "../scss/userprofile.scss";
-
-
-#app {
-  background-color: black;
-}
+<style>
 </style>

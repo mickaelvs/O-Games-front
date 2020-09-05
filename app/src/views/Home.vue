@@ -29,38 +29,5 @@ export default {
   },
 };
 </script>
-<style lang="scss">
-@import "../scss/header.scss";
-@font-face {
-  font-family: Earth Orbiter;
-  src: url(../assets/fonts/earthorbiter.ttf);
-}
-
-
-figure {
-  display: flex;
-  flex-flow: column;
-  //padding: 5px;
-  max-width: 100%;
-  width: 80%;
-  margin: auto;
-}
-
-.img-header-home {
-  max-width: 100%;
-  max-height: 80%;
-  overflow: hidden;
-  margin-top: 5%;
-}
-
-figcaption {
-  background: linear-gradient(black, #3c5a14);
-  opacity: 0.5;
-  height: 30%;
-  color: #fff;
-  font-family: nazalization;
-  font-size: 33px;
-  //padding: 3px;
-  text-align: center;
-}
+<style>
 </style>
